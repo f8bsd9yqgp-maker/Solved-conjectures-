@@ -15,3 +15,11 @@ For ideal periodic laminates with rationally independent layer transit times, th
 [Read the result and reproduction guide](proofs/shear-wave-band-gap-density/README.md) · [Download the five-page PDF](proofs/shear-wave-band-gap-density/Aluminum_steel_ultrasound.pdf) · [Lustig and Shmuel’s 2018 paper](https://doi.org/10.1016/j.jmps.2018.04.008)
 
 Public review version dated 20 November 2026. Independent review and publication priority remain open.
+
+## Fel's multiphase conductivity conjecture (candidate proof)
+
+A null-Lagrangian argument gives the determinant lower and upper bounds in Conjecture 1 of Fel (2026) for cyclically phase-symmetric isotropic planar composites with arbitrary phase count.
+
+[Read the proof](proofs/fel-multiphase-conductivity/README.md) · [Original conjecture](https://doi.org/10.3390/math14091519)
+
+AI-assisted note dated 23 November 2026. Independent review and priority remain unverified; the result may follow from earlier phase-interchange inequalities.
