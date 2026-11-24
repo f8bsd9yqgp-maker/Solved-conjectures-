@@ -93,3 +93,12 @@ General arguments with exact atlas sanity checks. No prior full resolution ident
 - [#258: Even-distance count and maximum spanning-tree leaves](proofs/graffiti-pc-258/README.md) — written proof and exact atlas check; prior full resolution not identified.
 
 - [#310: Minimum transmission and total domination](proofs/graffiti-pc-310/README.md) — written proof via BFS chain decomposition; 994 atlas graphs passed. Priority and independent review pending.
+
+## Graffiti.pc — four further open-catalogue candidates (24 November 2026)
+
+- [#259: Maximum-degree external neighborhood](proofs/graffiti-pc-259/README.md) — proof.
+- [#260: Peripheral external neighborhood](proofs/graffiti-pc-260/README.md) — proof.
+- [#261: Degree-two external neighborhood](proofs/graffiti-pc-261/README.md) — proof.
+- [#138: Induced path and square-graph distance](proofs/graffiti-pc-138/README.md) — infinite tree counterexample family.
+
+[Joint verifier](proofs/graffiti-pc-259/verify.py). Written candidate resolutions; no claim of established discovery priority or independent verification.
