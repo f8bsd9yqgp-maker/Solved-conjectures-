@@ -47,3 +47,11 @@ A general total-domination lower bound in terms of components of closed neighbor
 ## Graffiti.pc Conjecture 315
 
 The maximum-pendant-set hypothesis characterizes connected nontrivial graphs (order at least three) with every nonpendant vertex supporting a leaf. This proves the well-total-dominated conjecture and describes all its minimal total dominating sets. [Written proof](proofs/graffiti-pc-315/README.md) · [Joint finite verifier](proofs/graffiti-pc-315/verify_241_315.py). Independent review, priority and Lean verification pending.
+
+## Graffiti.pc Conjecture 255
+
+Infinite self-centered counterexamples with total domination number 3; the first member has 11 vertices. [Written disproof](proofs/graffiti-pc-255/README.md). Independent review, priority and Lean verification pending.
+
+## Graffiti.pc Conjecture 256
+
+Infinite theta-graph counterexamples to the minimum-degree-neighborhood bound, using the catalogue's neighborhood convention; the first member has 15 vertices. [Written disproof](proofs/graffiti-pc-256/README.md) · [Joint verifier](proofs/graffiti-pc-256/verify_255_256.py). The construction adapts the catalogue's example for 254; priority and Lean verification pending.
