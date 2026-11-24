@@ -114,3 +114,15 @@ Three corollaries of the published annihilation bound and two direct written pro
 - [#361: Isolated support vertices and tree centers](proofs/graffiti-pc-361/README.md) — direct proof.
 
 [Joint finite verifier](proofs/graffiti-pc-348/verify.py): 985 trees checked.
+
+## Graffiti.pc — five further candidate resolutions (24 November 2026)
+
+Direct written arguments, with precise domain qualifications; independent review, discovery priority, and Lean verification pending. November catalogue images verify the open status of #380 and #381; the other entries use the August transcription because later page retrieval failed.
+
+- [#365: Isolated support vertices and degree-two edges](proofs/graffiti-pc-365/README.md) — candidate proof.
+- [#376: Isolated maximum-degree vertices and minimum transmission](proofs/graffiti-pc-376/README.md) — candidate proof.
+- [#377: Isolated maximum-degree vertices and upper median degree](proofs/graffiti-pc-377/README.md) — candidate proof.
+- [#380: Even-degree vertices and center eccentricity](proofs/graffiti-pc-380/README.md) — candidate proof.
+- [#381: Isolates in support-vertex neighborhoods](proofs/graffiti-pc-381/README.md) — candidate proof.
+
+[Joint exact verifier](proofs/graffiti-pc-365/verify.py): 985 trees checked.
