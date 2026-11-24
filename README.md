@@ -80,3 +80,12 @@ Written derivations and explicit witnesses; known prior work is credited, and re
 - [#179: Spanning-tree leaves, domination and local independence](proofs/graffiti-pc-179/README.md) — Written proof, priority unverified
 - [#267: Total domination versus distance from minimum-degree vertices](proofs/graffiti-pc-267/README.md) — Infinite counterexample family, prior disproof exists
 - [#308: Total domination, Maxine and complement edge neighborhoods](proofs/graffiti-pc-308/README.md) — Counterexample reproduction
+
+## Graffiti.pc — four further open-catalogue proof candidates (24 November 2026)
+
+General arguments with exact atlas sanity checks. No prior full resolution identified in targeted searches; originality and external review unconfirmed. See each note for dependencies and domain qualifications.
+
+- [#208: Matching number and Hamiltonian paths](proofs/graffiti-pc-208/README.md)
+- [#235: Periphery and total domination in bipartite graphs](proofs/graffiti-pc-235/README.md)
+- [#290: Total domination and the first Havel–Hakimi zero](proofs/graffiti-pc-290/README.md)
+- [#305: Complement-edge neighborhoods and total domination](proofs/graffiti-pc-305/README.md)
