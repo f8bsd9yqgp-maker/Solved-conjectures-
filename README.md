@@ -27,3 +27,7 @@ AI-assisted note dated 23 November 2026. Independent review and priority remain 
 ## Graffiti.pc Conjecture 137
 
 The path-number inequality is sharp for all finite simple connected graphs of order at least two. The literal statement has the singleton exception. [Read the written proof](proofs/graffiti-pc-137/README.md). AI-assisted note dated 24 November 2026; independent review, priority and Lean verification remain pending.
+
+## Graffiti.pc Conjecture 161
+
+A proper-clique spanning-tree construction proves the maximum-leaf bound in terms of the complement's maximum local independence number, and yields a sharp stronger clique-number bound for connected noncomplete graphs. [Read the written proof](proofs/graffiti-pc-161/README.md). AI-assisted note dated 24 November 2026; independent review, priority and Lean verification remain pending.
