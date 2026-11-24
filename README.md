@@ -55,3 +55,18 @@ Infinite self-centered counterexamples with total domination number 3; the first
 ## Graffiti.pc Conjecture 256
 
 Infinite theta-graph counterexamples to the minimum-degree-neighborhood bound, using the catalogue's neighborhood convention; the first member has 15 vertices. [Written disproof](proofs/graffiti-pc-256/README.md) · [Joint verifier](proofs/graffiti-pc-256/verify_255_256.py). The construction adapts the catalogue's example for 254; priority and Lean verification pending.
+
+## Graffiti.pc — additional ten entries (24 November 2026)
+
+These notes are unrefereed, not Lean-verified, and do not assert first discovery. Earlier public work is noted where identified. #321 is computer-assisted, all other arguments are written proofs or explicit counterexamples.
+
+- [#157: Radial-circle edges and spanning-tree leaves](proofs/graffiti-pc-157/README.md) — written proof
+- [#160: Local independence and incident triangles](proofs/graffiti-pc-160/README.md) — alternative proof (prior work exists)
+- [#268: Total domination and average distance among centers](proofs/graffiti-pc-268/README.md) — written proof
+- [#271: Total domination and maximum-degree distances](proofs/graffiti-pc-271/README.md) — written proof
+- [#317: Induced tree size and well total domination](proofs/graffiti-pc-317/README.md) — written proof
+- [#320: Even-distance count and minimum transmission](proofs/graffiti-pc-320/README.md) — written proof
+- [#321: Average eccentricity versus maximum transmission](proofs/graffiti-pc-321/README.md) — computer-assisted proof
+- [#325: Complement-edge neighborhoods and degree-two components](proofs/graffiti-pc-325/README.md) — written proof
+- [#326: Degree-two subgraph and matching number](proofs/graffiti-pc-326/README.md) — alternative proof (prior work exists)
+- [#328: Counterexample family for matching and K4 incidence](proofs/graffiti-pc-328/README.md) — disproof (prior work exists)

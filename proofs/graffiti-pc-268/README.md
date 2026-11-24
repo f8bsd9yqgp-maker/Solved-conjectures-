@@ -1,0 +1,9 @@
+# Graffiti.pc Conjecture 268 — Total domination and average distance among centers
+
+24 November 2026. AI-assisted research note, GPT-6.2. Written proof. Not independently refereed; not Lean-verified. No novelty or priority claim.
+
+Source: E. DeLaViña, [Written on the Wall II, November 2026 catalogue](https://www.uhd.edu/academics/sciences/mathematics-statistics/wowii/files/wowiiaii.pdf), entry 268, marked open in that edition. The current main results index of Cinna Davis's repository lists #318, not this entry. This does not exclude previous work elsewhere.
+
+Let k=γ_t(G), C the center, and the average distance among distinct center vertices be d̄(C). The claim is k≥floor(1+d̄(C)).
+
+Take a minimum total dominating set D; each component of G[D] has order at least 2, so their number c≤floor(k/2). Assign every vertex outside D to one component containing a neighbor. The quotient graph of these c clusters is connected. For every edge of a quotient spanning tree, join its two D-components by a path of length at most 3, using at most two additional vertices. This yields a connected subgraph containing D of order h≤k+2(c−1)≤2k−2. Take a spanning tree of this subgraph and attach every remaining vertex by an edge to D. The resulting spanning tree has diameter at most (h−1)+2≤2k−1. Its radius is at most k. Therefore G has radius at most k. If rad(G)<k, every pair of centers has distance at most k−1. If rad(G)=k, the constructed tree must have diameter 2k−1, and its two adjacent centers both have eccentricity at most k in G; hence both are centers of G. All center-pair distances are at most k, and at least one is 1<k (k≥2). Thus d̄(C)<k. Taking the floor proves the claim. If C is a singleton, the distinct-pair average is undefined; the natural zero convention makes the bound immediate. The graph must have order at least two for total domination to be defined. ∎
