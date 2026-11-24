@@ -126,3 +126,15 @@ Direct written arguments, with precise domain qualifications; independent review
 - [#381: Isolates in support-vertex neighborhoods](proofs/graffiti-pc-381/README.md) — candidate proof.
 
 [Joint exact verifier](proofs/graffiti-pc-365/verify.py): 985 trees checked.
+
+## Graffiti.pc — five further candidate resolutions (24 November 2026)
+
+Direct mathematical proofs, with a separate tie-convention counterexample for #367. Current primary catalogue unavailable; August transcription checked, and #367/#379 confirmed in the original research paper. No independent-review or priority claim.
+
+- [#362: Tree radius and support-neighborhood components](proofs/graffiti-pc-362/README.md) — candidate proof.
+- [#367: Degree-two mode and number of distinct degrees](proofs/graffiti-pc-367/README.md) — proof under unique mode, counterexample if ties allowed.
+- [#379: Maximum-degree components and degree diversity](proofs/graffiti-pc-379/README.md) — candidate proof.
+- [#416: Critical independent sets in diameter-two graphs](proofs/graffiti-pc-416/README.md) — candidate proof.
+- [#423: Independent domination and minimum-degree neighborhoods](proofs/graffiti-pc-423/README.md) — candidate proof.
+
+[Joint finite verifier](proofs/graffiti-pc-379/verify.py).

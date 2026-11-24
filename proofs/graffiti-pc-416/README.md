@@ -1,0 +1,12 @@
+# Graffiti.pc Conjecture 416 — Critical independent sets in diameter-two graphs
+
+24 November 2026. AI-assisted candidate resolution, not independently refereed or Lean-verified. Original problem numbers and statements are from E. DeLaViña's Written on the Wall II, as recorded in the [August 6, 2026 transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graffiti_pc_wow2.json). The current primary catalogue PDF could not be retrieved (HTTP 404); thus the current official status is not established. Targeted literature searches found no exact prior full resolution of these five entries, but priority is unverified. The current Davis completed index does not list any of them.
+
+Let G be a finite simple connected graph on n>2 vertices with diameter at most two. Let P be its pendant vertices. For an independent set I define its difference as |I|−|N(I)|. A maximum critical independent set maximizes this difference and then cardinality. Let H be the union of all such sets. The conjecture is |H|≥isolates(G[N(N(P))])−2, with N the union of open neighborhoods.
+
+If P is empty, the right side is −2 and the result is immediate. Otherwise choose a leaf p and its unique neighbor x. The diameter hypothesis forces x to be universal, since every path from p to another vertex starts with x. All leaves have x as their support (a universal vertex is adjacent to every leaf). Thus N(P)={x} and N(N(P))=V∖{x}. Its isolated vertices are exactly P.
+
+Every maximum critical independent set excludes x: an independent set containing x is precisely {x}, of difference 2−n<0, whereas the empty set has difference zero. If such a set I is nonempty and omits any leaf p, then I∪{p} is independent and has exactly the same neighborhood, since x∈N(I). This increases the difference, impossible. If I is empty, then the independent set P has difference |P|−1≥0, which either improves the difference or ties it and improves cardinality. Therefore every maximum critical independent set contains P, and |H|≥|P|=isolates(G[N(N(P))]). This stronger bound implies the conjecture. ∎
+
+## Exact finite checks
+[Joint verifier](../graffiti-pc-379/verify.py), run 24 November 2026: 985 trees of orders 3–12 for #362 and #379; 148 unique-degree-two-mode trees for #367; 456 connected diameter-at-most-two atlas graphs for #416; and 992 connected atlas graphs of order 4–7 for #423. All applicable checks passed. These are sanity checks, not substitutes for the written proofs.
