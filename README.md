@@ -35,3 +35,7 @@ A proper-clique spanning-tree construction proves the maximum-leaf bound in term
 ## Graffiti.pc Conjecture 162
 
 A breadth-first spanning-tree construction places every simplicial vertex among the leaves of a connected noncomplete graph, proving Conjecture 162 on its defined domain (minimum degree positive). The bound is sharp on trees. [Read the written proof](proofs/graffiti-pc-162/README.md) · [Finite verifier](proofs/graffiti-pc-162/verify.py). AI-assisted note dated 24 November 2026; independent review, priority and Lean verification remain pending.
+
+## Graffiti.pc Conjecture 169
+
+A breadth-first spanning-tree degree-sum argument proves the sharp even-distance spread bound for connected graphs on at least two vertices (the singleton depends on the leaf convention). [Read the written proof](proofs/graffiti-pc-169/README.md) · [Finite verifier](proofs/graffiti-pc-169/verify.py). AI-assisted note dated 24 November 2026; independent review, priority and Lean verification remain pending.
