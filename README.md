@@ -70,3 +70,13 @@ These notes are unrefereed, not Lean-verified, and do not assert first discovery
 - [#325: Complement-edge neighborhoods and degree-two components](proofs/graffiti-pc-325/README.md) — written proof
 - [#326: Degree-two subgraph and matching number](proofs/graffiti-pc-326/README.md) — alternative proof (prior work exists)
 - [#328: Counterexample family for matching and K4 incidence](proofs/graffiti-pc-328/README.md) — disproof (prior work exists)
+
+## Graffiti.pc — five further entries (24 November 2026)
+
+Written derivations and explicit witnesses; known prior work is credited, and reproductions are not new discoveries. Independent review remains pending.
+
+- [#19: Average eccentricity and local independence](proofs/graffiti-pc-19/README.md) — Proof reproduction
+- [#34: Longest induced path versus distance averages](proofs/graffiti-pc-34/README.md) — Counterexample, prior disproof exists
+- [#179: Spanning-tree leaves, domination and local independence](proofs/graffiti-pc-179/README.md) — Written proof, priority unverified
+- [#267: Total domination versus distance from minimum-degree vertices](proofs/graffiti-pc-267/README.md) — Infinite counterexample family, prior disproof exists
+- [#308: Total domination, Maxine and complement edge neighborhoods](proofs/graffiti-pc-308/README.md) — Counterexample reproduction
