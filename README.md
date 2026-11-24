@@ -102,3 +102,15 @@ General arguments with exact atlas sanity checks. No prior full resolution ident
 - [#138: Induced path and square-graph distance](proofs/graffiti-pc-138/README.md) — infinite tree counterexample family.
 
 [Joint verifier](proofs/graffiti-pc-259/verify.py). Written candidate resolutions; no claim of established discovery priority or independent verification.
+
+## Graffiti.pc — five further candidate resolutions (24 November 2026)
+
+Three corollaries of the published annihilation bound and two direct written proofs. Entries marked open in the August 2026 transcription; current primary-source page retrieval was unsuccessful. No novelty or independent-review claim.
+
+- [#342: Annihilation and isolated support vertices](proofs/graffiti-pc-342/README.md) — corollary of published results.
+- [#343: Annihilation and degree-two components](proofs/graffiti-pc-343/README.md) — corollary of published results.
+- [#344: Annihilation and leaf-neighborhood components](proofs/graffiti-pc-344/README.md) — corollary of published results.
+- [#348: External neighborhood of degree-two vertices](proofs/graffiti-pc-348/README.md) — direct proof.
+- [#361: Isolated support vertices and tree centers](proofs/graffiti-pc-361/README.md) — direct proof.
+
+[Joint finite verifier](proofs/graffiti-pc-348/verify.py): 985 trees checked.
