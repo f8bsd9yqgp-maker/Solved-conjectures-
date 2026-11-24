@@ -91,3 +91,5 @@ General arguments with exact atlas sanity checks. No prior full resolution ident
 - [#305: Complement-edge neighborhoods and total domination](proofs/graffiti-pc-305/README.md)
 
 - [#258: Even-distance count and maximum spanning-tree leaves](proofs/graffiti-pc-258/README.md) — written proof and exact atlas check; prior full resolution not identified.
+
+- [#310: Minimum transmission and total domination](proofs/graffiti-pc-310/README.md) — written proof via BFS chain decomposition; 994 atlas graphs passed. Priority and independent review pending.
