@@ -39,3 +39,11 @@ A breadth-first spanning-tree construction places every simplicial vertex among 
 ## Graffiti.pc Conjecture 169
 
 A breadth-first spanning-tree degree-sum argument proves the sharp even-distance spread bound for connected graphs on at least two vertices (the singleton depends on the leaf convention). [Read the written proof](proofs/graffiti-pc-169/README.md) · [Finite verifier](proofs/graffiti-pc-169/verify.py). AI-assisted note dated 24 November 2026; independent review, priority and Lean verification remain pending.
+
+## Graffiti.pc Conjecture 241
+
+A general total-domination lower bound in terms of components of closed neighborhoods proves the tree conjecture wherever its center-distance average is defined, and also under the zero convention for a singleton center. [Written proof](proofs/graffiti-pc-241/README.md). Independent review, priority and Lean verification pending.
+
+## Graffiti.pc Conjecture 315
+
+The maximum-pendant-set hypothesis characterizes connected nontrivial graphs (order at least three) with every nonpendant vertex supporting a leaf. This proves the well-total-dominated conjecture and describes all its minimal total dominating sets. [Written proof](proofs/graffiti-pc-315/README.md) · [Joint finite verifier](proofs/graffiti-pc-315/verify_241_315.py). Independent review, priority and Lean verification pending.
