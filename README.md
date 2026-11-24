@@ -23,3 +23,7 @@ A null-Lagrangian argument gives the determinant lower and upper bounds in Conje
 [Read the proof](proofs/fel-multiphase-conductivity/README.md) · [Original conjecture](https://doi.org/10.3390/math14091519)
 
 AI-assisted note dated 23 November 2026. Independent review and priority remain unverified; the result may follow from earlier phase-interchange inequalities.
+
+## Graffiti.pc Conjecture 137
+
+The path-number inequality is sharp for all finite simple connected graphs of order at least two. The literal statement has the singleton exception. [Read the written proof](proofs/graffiti-pc-137/README.md). AI-assisted note dated 24 November 2026; independent review, priority and Lean verification remain pending.
