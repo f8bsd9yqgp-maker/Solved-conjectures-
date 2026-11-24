@@ -89,3 +89,5 @@ General arguments with exact atlas sanity checks. No prior full resolution ident
 - [#235: Periphery and total domination in bipartite graphs](proofs/graffiti-pc-235/README.md)
 - [#290: Total domination and the first Havel–Hakimi zero](proofs/graffiti-pc-290/README.md)
 - [#305: Complement-edge neighborhoods and total domination](proofs/graffiti-pc-305/README.md)
+
+- [#258: Even-distance count and maximum spanning-tree leaves](proofs/graffiti-pc-258/README.md) — written proof and exact atlas check; prior full resolution not identified.
