@@ -29,14 +29,14 @@ def chain_check(r,k,leaf=False):
 
 g,a,mu=chain_check(4,8);delta=min(dict(g.degree()).values());assert (a,mu,delta)==(4,16,7);assert 2*a<mu-delta
 print('lower-026',a,Fraction(mu-delta,2))
-g=nx.disjoint_union(nx.complete_graph(4),nx.complete_graph(4));g.add_edges_from((8,v) for v in range(8));a=alpha_small(g);d=max(nx.core_number(g).values());D=max(dict(g.degree()).values());assert (a,d,D)==(2,4,8);assert nx.triangles(g,8)>0;assert a<min(3,D-d)
-print('lower-028',a,min(3,D-d))
+g=nx.disjoint_union(nx.complete_graph(4),nx.complete_graph(4));g.add_edges_from((8,v) for v in range(8));a=alpha_small(g);d=max(nx.core_number(g).values());D=max(dict(g.degree()).values());assert (a,d,D)==(2,4,8);assert nx.triangles(g,8)>0;assert a<min(3,D-(d+1))
+print('lower-028',a,min(3,D-(d+1)))
 g=nx.complete_graph(3);g.add_edges_from((v,v+3) for v in range(3));a=alpha_small(g);p=sum(d==1 for _,d in g.degree());t=sum(nx.triangles(g).values())//3;assert (a,p,t)==(3,3,1);assert a<min(10**t,p+1)
 print('lower-031',a,min(10**t,p+1))
 g,a,mu=chain_check(12,4,True);delta=min(dict(g.degree()).values());assert (a,mu,delta)==(13,24,1);assert a<mu-10**delta
 print('lower-042',a,mu-10**delta)
-g,a,mu=chain_check(8,4);D=max(dict(g.degree()).values());d=max(nx.core_number(g).values());assert (a,mu,D,d)==(8,16,4,3);assert a<mu-D-d
-print('lower-044',a,mu-D-d)
+g,a,mu=chain_check(9,4);D=max(dict(g.degree()).values());d=max(nx.core_number(g).values());assert (a,mu,D,d)==(9,18,4,3);assert a<mu-D-(d+1)
+print('lower-044',a,mu-D-(d+1))
 g=nx.star_graph(32);s=list(range(1,33));indep(g,s);assert nx.is_connected(g);avg=Fraction(sum(sum(x.values()) for _,x in nx.all_pairs_shortest_path_length(g)),len(g)*(len(g)-1));assert avg==Fraction(64,33)<Fraction(9,4);assert 10**3<32**2
 print('upper-002',len(s),'RHS < 32')
 g=nx.complete_bipartite_graph(9,9);indep(g,list(range(9)));assert len(g)==18 and min(dict(g.degree()).values())==9;assert Fraction(11,4)**2<8

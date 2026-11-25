@@ -1,0 +1,11 @@
+# Graph Brain alpha lower-049 — Matching and maximum common neighbors
+
+24 November 2026 (US Central). AI-assisted written disproof. Source: [Graph Brain open alpha conjectures](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086), posted September 7, 2017. ID is the transcription identifier from [the 2026 corpus](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). The original statement and [author invariant implementation](https://github.com/math1um/objects-invariants-properties/blob/master/src/Invariants/invariants.sage) were checked. In particular sigma_2 is the minimum degree sum of a nonadjacent pair, NOT the second-smallest degree, and SW is degeneracy plus one. The prior [lower-bound sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper-bound sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) mark this entry HOLD_ARSENAL (no counterexample in their tested families, not a proof). No earlier exact resolution was identified in targeted searches; the old issue's open status does not establish current mathematical status or discovery priority. Not independently refereed or Lean-verified. All graphs are finite, simple and connected.
+
+## Statement
+α≥μ−10^c, where c is the maximum common-neighbor count over distinct pairs.
+
+## Disproof
+For r≥101, form a chain of r vertex-disjoint K4 cliques by choosing one hub in each clique and joining successive hubs by a bridge. One nonhub vertex in each clique gives α=r, and the clique partition shows no larger independent set. Matching each clique perfectly gives μ=2r, equal to the order upper bound. The common-neighbor maximum is two: vertices in one clique have exactly two common neighbors, and vertices in different cliques have at most one common neighbor (a hub along the chain). Hence the claimed lower bound is 2r−100>r. For r=101 it is 102 while α=101. ∎
+
+[Joint witness verifier](../graphbrain-alpha-lower-016/verify.py): all ten witness tests passed in Python/NetworkX on 24 November 2026. Infinite-family proofs are independent of finite testing.

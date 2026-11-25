@@ -181,3 +181,20 @@ Source: [open alpha conjectures, issue #421](https://github.com/math1um/objects-
 - [upper-061: Average and maximum degree exponential upper bound](proofs/graphbrain-alpha-upper-061/README.md) — counterexample family.
 
 [Joint witness verifier](proofs/graphbrain-alpha-lower-026/verify.py).
+
+## Graph Brain independence-number conjectures — ten further counterexample families (24 November 2026)
+
+Ten source-faithful disproofs by infinite families. Each entry was a HOLD_ARSENAL in the August 2026 computational sweep, not a previously reported disproof in that ledger. Discovery priority is unverified. All ten new witness checks passed. Also corrected the earlier lower-044 witness to nine cliques to match the author's definition SW=degeneracy+1; its infinite-family disproof remains valid.
+
+- [lower-016: Maximum degree and nonadjacent degree sum](proofs/graphbrain-alpha-lower-016/README.md) — counterexample family.
+- [lower-022: Periphery and nonadjacent degree sum](proofs/graphbrain-alpha-lower-022/README.md) — counterexample family.
+- [lower-025: Order and inverse hyperbolic sine lower bound](proofs/graphbrain-alpha-lower-025/README.md) — counterexample family.
+- [lower-049: Matching and maximum common neighbors](proofs/graphbrain-alpha-lower-049/README.md) — counterexample family.
+- [lower-051: Matching, center size and girth](proofs/graphbrain-alpha-lower-051/README.md) — counterexample family.
+- [lower-059: Matching, center size and maximum degree](proofs/graphbrain-alpha-lower-059/README.md) — counterexample family.
+- [upper-015: Exponential degree-sum and periphery upper bound](proofs/graphbrain-alpha-upper-015/README.md) — counterexample family.
+- [upper-042: Diameter and maximum-degree power bound](proofs/graphbrain-alpha-upper-042/README.md) — counterexample family.
+- [upper-065: Mean distance and girth upper bound](proofs/graphbrain-alpha-upper-065/README.md) — counterexample family.
+- [upper-080: Radius and maximum-degree squared upper bound](proofs/graphbrain-alpha-upper-080/README.md) — counterexample family.
+
+[Joint witness verifier](proofs/graphbrain-alpha-lower-016/verify.py).
