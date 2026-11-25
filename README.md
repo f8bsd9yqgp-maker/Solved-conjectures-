@@ -351,3 +351,7 @@ Independent review, current individual prior-resolution status and discovery pri
 ## Farrokhi–Yazdan Pour Conjecture 4.2 (25 November 2026)
 
 [28-vertex cylindrical grid counterexample and integer-weight verifier](proofs/farrokhi-yazdan-pour-pmd-cylinder-4-2/README.md). P4 □ C7 has positive matching decomposition number 4 instead of the predicted 5. [Original paper](https://arxiv.org/abs/2502.02826). Independent review and priority pending; original conjecture wording checked against an attributed transcription. Cumulative documented entries: 171, including reproductions and candidate resolutions.
+
+## Aboulker–Aubian–Charbit–Lopes substitution conjecture (25 November 2026)
+
+[General constructive disproof of published Conjecture 6.2 (earlier 6.1)](proofs/aboulker-aubian-charbit-lopes-digraph-substitution/README.md). A hereditary class of oriented graphs of dichromatic number at most two has substitution closure containing digraphs of directed clique number two and arbitrarily large dichromatic number. [Original paper](https://doi.org/10.37236/12557). The tournament theorem is unaffected. Independent review and discovery priority remain pending. Cumulative documented entries: 172, including reproductions and candidate resolutions.
