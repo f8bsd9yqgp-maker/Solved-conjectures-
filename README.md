@@ -392,3 +392,8 @@ An 11-vertex subcubic tree violates the conjecture; exhaustive enumeration estab
 ## Caro–Petruševski–Škrekovski–Tuza odd-independence equality problem (Problem 34)
 
 Both recognition problems are Theta_2^P-complete by explicit reductions from independence-number comparison, answering the complexity alternatives of the published problem. The reductions give connected graphs of diameter at most two and three, respectively. [Proof](proofs/caro-odd-independence-equality-complexity/README.md) · [Verifier](proofs/caro-odd-independence-equality-complexity/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
+
+
+## Liu–Kitaev–Zhang simultaneous 0120 and 0121 avoidance (25 November 2026)
+
+[Exact scalar enumeration and proof](proofs/liu-kitaev-zhang-ascent-0120-0121/README.md) · [Reproducible verifier](proofs/liu-kitaev-zhang-ascent-0120-0121/verify.py) · [Original open problem](https://doi.org/10.46298/dmtcs.17977). General finite-sum enumeration and non-P-recursiveness argument; independent brute-force checks through length 10, formula evaluation through length 20. Simpler elementary expressions outside the excluded classes, independent review, and priority remain unresolved.
