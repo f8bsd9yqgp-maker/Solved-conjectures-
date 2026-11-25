@@ -347,3 +347,7 @@ Independent review, current individual prior-resolution status and discovery pri
 ## Farrokhi–Yazdan Pour Conjecture 2.5 (25 November 2026)
 
 [16-vertex counterexample and exact integer-weight verifier](proofs/farrokhi-yazdan-pour-pmd-tree-products/README.md). The Cartesian product K1,3 □ K2 □ K2 has positive matching decomposition number 5 rather than the conjectured 6. [Original conjecture](https://arxiv.org/abs/2502.02826). Independent review and priority pending. Cumulative documented conjecture/problem entries: 170, including reproductions and candidates.
+
+## Farrokhi–Yazdan Pour Conjecture 4.2 (25 November 2026)
+
+[28-vertex cylindrical grid counterexample and integer-weight verifier](proofs/farrokhi-yazdan-pour-pmd-cylinder-4-2/README.md). P4 □ C7 has positive matching decomposition number 4 instead of the predicted 5. [Original paper](https://arxiv.org/abs/2502.02826). Independent review and priority pending; original conjecture wording checked against an attributed transcription. Cumulative documented entries: 171, including reproductions and candidate resolutions.
