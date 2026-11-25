@@ -367,3 +367,8 @@ A connected 20-vertex graph made of five copies of K4 joined by four bridges dis
 ## Onn–Koutecký line-sum optimization conjecture (complexity classification)
 
 An explicit reduction from strongly NP-complete 3-PARTITION proves strong NP-completeness for binary matrix line-sum optimization with arbitrary tabulated integer costs, even with prescribed column sums, and for separable degree optimization on complete graphs. The proposed polynomial-time algorithms would exist if and only if P=NP; this is not an unconditional disproof of polynomial-time solvability. [Proof and scope](proofs/onn-line-sum-optimization/README.md) · [Exact small-instance checks](proofs/onn-line-sum-optimization/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
+
+
+## Graffiti.pc Conjecture 232
+
+[Unrestricted written candidate proof](proofs/graffiti-pc-232/README.md) of the total-domination lower bound involving radius and peripheral eccentricity. Independent review and priority pending.
