@@ -165,3 +165,19 @@ Five entries with no earlier exact numbered resolution identified in targeted se
 - [#450: Dissociation number via private neighbors of low-degree vertices](proofs/graffiti-pc-450/README.md) — candidate proof.
 
 [Joint exact verifier](proofs/graffiti-pc-393a/verify.py).
+
+## Graph Brain independence-number conjectures — nine counterexample families (24 November 2026)
+
+Source: [open alpha conjectures, issue #421](https://github.com/math1um/objects-invariants-properties/issues/421). IDs are from the corpus transcription; each statement was checked against the original issue/comment. Nine disproofs by infinite families; all nine finite witness checks passed. The source issue remains open but the prior mathematical status of individual entries is not independently established. No discovery-priority or independent-review claim.
+
+- [lower-026: Matching and minimum-degree lower bound](proofs/graphbrain-alpha-lower-026/README.md) — counterexample family.
+- [lower-028: Girth, maximum degree and Szekeres–Wilf lower bound](proofs/graphbrain-alpha-lower-028/README.md) — counterexample family.
+- [lower-031: Triangle and pendant lower bound](proofs/graphbrain-alpha-lower-031/README.md) — counterexample family.
+- [lower-042: Matching number minus exponential degree bound](proofs/graphbrain-alpha-lower-042/README.md) — counterexample family.
+- [lower-044: Matching, maximum degree and degeneracy lower bound](proofs/graphbrain-alpha-lower-044/README.md) — counterexample family.
+- [upper-002: Average-distance exponential upper bound](proofs/graphbrain-alpha-upper-002/README.md) — counterexample family.
+- [upper-008: Order-to-minimum-degree exponential upper bound](proofs/graphbrain-alpha-upper-008/README.md) — counterexample family.
+- [upper-025: Diameter-squared and maximum-degree upper bound](proofs/graphbrain-alpha-upper-025/README.md) — counterexample family.
+- [upper-061: Average and maximum degree exponential upper bound](proofs/graphbrain-alpha-upper-061/README.md) — counterexample family.
+
+[Joint witness verifier](proofs/graphbrain-alpha-lower-026/verify.py).

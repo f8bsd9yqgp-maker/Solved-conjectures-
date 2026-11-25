@@ -1,0 +1,11 @@
+# Graph Brain alpha lower-044 — Matching, maximum degree and degeneracy lower bound
+
+24 November 2026 (US Central). AI-assisted counterexample note. Source: the Graph Brain Project's [open independence-number issue](https://github.com/math1um/objects-invariants-properties/issues/421), posted September 7, 2017; upper bounds are in [the accompanying comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086). The issue remains open. IDs below are the transcription identifiers from [the 2026 corpus](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json), not original conjecture numbers. The original formula was checked against the issue or comment. Neither the user's existing index nor Davis's main index lists these entries; targeted public searches did not establish prior exact resolutions. The issue's age and open status do not guarantee that each statement was still mathematically unresolved. No first-discovery, independent-review, or Lean-verification claim is made. All graphs are finite, simple, and connected.
+
+## Statement
+α(G) ≥ μ(G)−Δ(G)−SW(G).
+
+## Disproof
+Take r≥8 copies of K4 in a chain, linked by one bridge between consecutive cliques, with distinct bridge endpoints within interior cliques. Then α=r (one nonbridge vertex per clique), μ=2r (perfect matching within each clique), and Δ=4. Degeneracy is three: every clique supplies minimum degree three, and each nonempty induced subgraph has a vertex of degree at most three. Indeed, if it contains a nonbridge vertex, that vertex has degree at most three. If it consists entirely of bridge endpoints, every vertex has at most one neighbor in its own clique and at most one bridge neighbor, so minimum degree is at most two. Consequently SW=3 under the maximum-minimum-degree convention and the conjectured lower bound is 2r−7>r for r≥8. At r=8, the right side is nine and α=8. If SW were instead defined as degeneracy plus one, use r≥9; the same family disproves that reading as well. ∎
+
+[Joint exact witness verifier](../graphbrain-alpha-lower-026/verify.py). All nine witness checks passed in the local Python/NetworkX execution on 24 November 2026. The infinite-family argument, not a numerical search alone, establishes the disproof.
