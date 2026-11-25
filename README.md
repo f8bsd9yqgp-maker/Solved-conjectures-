@@ -363,3 +363,7 @@ Independent review, current individual prior-resolution status and discovery pri
 ## Graffiti.pc Conjecture 76
 
 A connected 20-vertex graph made of five copies of K4 joined by four bridges disproves the proposed lower bound on induced-tree order. An infinite family gives unbounded violation. [Proof and construction](proofs/graffiti-pc-76/README.md) · [Exact Python verifier](proofs/graffiti-pc-76/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
+
+## Onn–Koutecký line-sum optimization conjecture (complexity classification)
+
+An explicit reduction from strongly NP-complete 3-PARTITION proves strong NP-completeness for binary matrix line-sum optimization with arbitrary tabulated integer costs, even with prescribed column sums, and for separable degree optimization on complete graphs. The proposed polynomial-time algorithms would exist if and only if P=NP; this is not an unconditional disproof of polynomial-time solvability. [Proof and scope](proofs/onn-line-sum-optimization/README.md) · [Exact small-instance checks](proofs/onn-line-sum-optimization/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
