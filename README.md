@@ -343,3 +343,7 @@ Independent review, current individual prior-resolution status and discovery pri
 ## Supplementary algorithm — not counted as a new conjecture solution (25 November 2026)
 
 [Bounded-backdegree tournament recognition](proofs/aboulker-aubian-lopes-bounded-backdegree/README.md) — fixed-parameter algorithm for arbitrary backdegree bound, checked against 3,297 exhaustive comparisons. Aboulker–Aubian–Lopes Problem 4.4's matching case was already resolved in [2017, Lemma C.47](https://arxiv.org/abs/1707.04220); this is an alternative argument and generalization. Connected-path case and priority for the generalization remain open. The cumulative documented conjecture/problem count remains 169.
+
+## Farrokhi–Yazdan Pour Conjecture 2.5 (25 November 2026)
+
+[16-vertex counterexample and exact integer-weight verifier](proofs/farrokhi-yazdan-pour-pmd-tree-products/README.md). The Cartesian product K1,3 □ K2 □ K2 has positive matching decomposition number 5 rather than the conjectured 6. [Original conjecture](https://arxiv.org/abs/2502.02826). Independent review and priority pending. Cumulative documented conjecture/problem entries: 170, including reproductions and candidates.
