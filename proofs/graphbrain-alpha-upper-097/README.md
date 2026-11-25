@@ -1,0 +1,14 @@
+# Graph Brain alpha upper-097 — Even-distance power and cut vertices
+
+24 November 2026 (US Central). AI-assisted candidate disproof, not independently refereed or Lean-verified. Original [Graph Brain issue #421](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086), posted 2017. Identifiers follow the [corpus transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). Definitions checked against the [author implementation](https://github.com/math1um/objects-invariants-properties/blob/master/src/Invariants/invariants.sage). In particular SW=degeneracy+1, sigma_2=min degree sum over nonadjacent pairs, M=max(0, max_v(|Even(v)|−|E(G[Even(v)])|)), with distance zero included. All graphs finite, simple, connected. Prior [lower sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) record these entries as HOLD_ARSENAL or HOLD_TIGHT. All seven pages of author-project issue titles were screened; no exact earlier closed resolution of the selected 30 was identified there. Targeted public literature search was not exhaustive; issue #421's open status is not proof of present mathematical status or novelty. Davis's main index does not list these entries. No discovery-priority claim.
+
+## Statement
+alpha ≤ M^dd+1/cut_vertices.
+
+## Disproof
+Define B(r,k) as r disjoint copies of K_k, with one designated hub per clique and bridges joining successive hubs. The independence number is r, by the clique partition and choosing one nonhub vertex per clique. For k=5 and odd r≥51, degrees are 4,5,6; maximum degree six, dd=3, number of cut vertices r (all hubs), order 5r, size 11r−1, radius (r+1)/2, and unique center the middle hub. Indeed hub j has eccentricity 1+max(j−1,r−j), each nonhub one greater. A matching of at least 2r edges exists within the cliques.
+
+To compute M exactly, root at any vertex in clique j. Its own even-distance set contains only the root in that clique. Each other clique contributes either its hub or all four nonhubs, inducing K4 in the latter case. These alternatives alternate on both sides of j. Write H,Q for the numbers of these two types. Then H+Q=r−1 and H−Q≤2, so ignoring cross-clique edges gives |Even|−|E(Even)|≤1+H−2Q≤3−Q≤0. Thus M=0 under the author's clamped definition.
+RHS=1/r<r, with positive denominator.
+
+[Joint exact witness verifier](../graphbrain-alpha-upper-001/verify.py). Local Python/NetworkX execution (24 November 2026 US Central) completed 30/30 checks, including rational analytic comparisons. A strict witness suffices; the numerical tests are not independent refereeing.

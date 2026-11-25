@@ -1,0 +1,14 @@
+# Graph Brain alpha upper-033 — Periphery power and even-distance bound
+
+24 November 2026 (US Central). AI-assisted candidate disproof, not independently refereed or Lean-verified. Original [Graph Brain issue #421](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086), posted 2017. Identifiers follow the [corpus transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). Definitions checked against the [author implementation](https://github.com/math1um/objects-invariants-properties/blob/master/src/Invariants/invariants.sage). In particular SW=degeneracy+1, sigma_2=min degree sum over nonadjacent pairs, M=max(0, max_v(|Even(v)|−|E(G[Even(v)])|)), with distance zero included. All graphs finite, simple, connected. Prior [lower sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) record these entries as HOLD_ARSENAL or HOLD_TIGHT. All seven pages of author-project issue titles were screened; no exact earlier closed resolution of the selected 30 was identified there. Targeted public literature search was not exhaustive; issue #421's open status is not proof of present mathematical status or novelty. Davis's main index does not list these entries. No discovery-priority claim.
+
+## Statement
+alpha ≤ |Per|^dd+M.
+
+## Disproof
+Take two groups, each comprising r≥20 disjoint K5s, and add all cross-group edges. At a designated core vertex h attach two disjoint paths of three edges, otherwise outside the core. Core degree is 5r+4 except at h where it is 5r+6; the other vertices have degrees 1 or 2. Thus dd=4 and minimum degree one. Diameter is six, with exactly the two arm endpoints peripheral (all core vertices have distance at most five from them). Choosing one vertex in each opposite-group clique and the first and third vertices of each arm produces an independent set of size r+4.
+
+For a root in the core, its even-distance core vertices are itself and all K5s in its group other than its own; their contribution to |Even|−|E(Even)| is at most 1−5(r−1). At an arm root, the even-distance core set is either the core neighbors of h (which contain the entire other group, inducing r disjoint K5s, plus a K4), or h plus all other cliques in h's group. In either case the contribution is at most 1−5(r−1). Adding the six arm vertices can increase this by at most six. Hence M=0.
+RHS=2^4=16<r+4.
+
+[Joint exact witness verifier](../graphbrain-alpha-upper-001/verify.py). Local Python/NetworkX execution (24 November 2026 US Central) completed 30/30 checks, including rational analytic comparisons. A strict witness suffices; the numerical tests are not independent refereeing.

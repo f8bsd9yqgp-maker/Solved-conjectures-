@@ -249,3 +249,42 @@ All ten explicit infinite-family arguments and local witness checks passed. Seve
 - [upper-092: Radius, periphery and degree diversity](proofs/graphbrain-alpha-upper-092/README.md) — disproof.
 
 [Joint verifier](proofs/graphbrain-alpha-lower-037/verify.py).
+
+## Graph Brain — 30 additional verified counterexamples (24 November 2026)
+
+All 30 witness checks passed, including exact rational transcendental bounds and analytic theta certificates. The August 2026 sweep reports these as holds; full author-issue-title history screened. Source issue remains open but individual current status and priority are not independently established. Cumulative count: 140 documented entries (including reproductions and candidate proofs).
+
+- [upper-001: Exponential degree and even-distance bound](proofs/graphbrain-alpha-upper-001/README.md) — disproof.
+- [upper-005: Squared degree minus matching](proofs/graphbrain-alpha-upper-005/README.md) — disproof.
+- [upper-073: Size, even-distance and radius](proofs/graphbrain-alpha-upper-073/README.md) — disproof.
+- [upper-095: Degree diversity exponential](proofs/graphbrain-alpha-upper-095/README.md) — disproof.
+- [upper-097: Even-distance power and cut vertices](proofs/graphbrain-alpha-upper-097/README.md) — disproof.
+- [lower-078: Matching and squared degree](proofs/graphbrain-alpha-lower-078/README.md) — disproof.
+- [upper-059: Cut vertices and mean degree](proofs/graphbrain-alpha-upper-059/README.md) — disproof.
+- [upper-006: Periphery and diameter power](proofs/graphbrain-alpha-upper-006/README.md) — disproof.
+- [upper-033: Periphery power and even-distance bound](proofs/graphbrain-alpha-upper-033/README.md) — disproof.
+- [upper-048: Even-distance exponential and periphery](proofs/graphbrain-alpha-upper-048/README.md) — disproof.
+- [upper-077: Radius power and even-distance bound](proofs/graphbrain-alpha-upper-077/README.md) — disproof.
+- [upper-082: Connectivity and common neighbors](proofs/graphbrain-alpha-upper-082/README.md) — disproof.
+- [upper-120: Theta over square root of order](proofs/graphbrain-alpha-upper-120/README.md) — disproof.
+- [upper-129: Hyperbolic cosine and normalized theta](proofs/graphbrain-alpha-upper-129/README.md) — disproof.
+- [upper-138: Independence irreducible part and Welsh-Powell](proofs/graphbrain-alpha-upper-138/README.md) — disproof.
+- [lower-046: Common neighbors and automorphism group](proofs/graphbrain-alpha-lower-046/README.md) — disproof.
+- [lower-024: Logarithm of size and automorphisms](proofs/graphbrain-alpha-lower-024/README.md) — disproof.
+- [lower-074: Distance logarithm and connectivity](proofs/graphbrain-alpha-lower-074/README.md) — disproof.
+- [lower-011: Theta, periphery and center](proofs/graphbrain-alpha-lower-011/README.md) — disproof.
+- [lower-015: Theta minus Welsh-Powell](proofs/graphbrain-alpha-lower-015/README.md) — disproof.
+- [lower-020: Theta minus center size](proofs/graphbrain-alpha-lower-020/README.md) — disproof.
+- [lower-027: Girth, radius and pendants](proofs/graphbrain-alpha-lower-027/README.md) — disproof.
+- [lower-075: Periphery minus degree squared and center](proofs/graphbrain-alpha-lower-075/README.md) — disproof.
+- [lower-036: Degree diversity, cut vertices and diameter](proofs/graphbrain-alpha-lower-036/README.md) — disproof.
+- [lower-034: Tangent of order minus degeneracy bound](proofs/graphbrain-alpha-lower-034/README.md) — disproof.
+- [lower-039: Common neighbors and tangent of order](proofs/graphbrain-alpha-lower-039/README.md) — disproof.
+- [lower-053: Inverse hyperbolic tangent of triangle sine](proofs/graphbrain-alpha-lower-053/README.md) — disproof.
+- [lower-064: Degree diversity and secant of center size](proofs/graphbrain-alpha-lower-064/README.md) — disproof.
+- [lower-070: Triangles, diameter and automorphisms](proofs/graphbrain-alpha-lower-070/README.md) — disproof.
+- [lower-088: Tangent of size plus degeneracy bound](proofs/graphbrain-alpha-lower-088/README.md) — disproof.
+
+[Joint exact verifier](proofs/graphbrain-alpha-upper-001/verify.py).
+
+**Priority correction:** the previously uploaded upper-002 and upper-061 are already disproved in author-project [issue #226](https://github.com/math1um/objects-invariants-properties/issues/226) and [issue #241](https://github.com/math1um/objects-invariants-properties/issues/241), respectively. Both have been marked as prior results; no claim of novel resolution. The counterexamples themselves remain valid.

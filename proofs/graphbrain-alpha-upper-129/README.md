@@ -1,0 +1,11 @@
+# Graph Brain alpha upper-129 — Hyperbolic cosine and normalized theta
+
+24 November 2026 (US Central). AI-assisted candidate disproof, not independently refereed or Lean-verified. Original [Graph Brain issue #421](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086), posted 2017. Identifiers follow the [corpus transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). Definitions checked against the [author implementation](https://github.com/math1um/objects-invariants-properties/blob/master/src/Invariants/invariants.sage). In particular SW=degeneracy+1, sigma_2=min degree sum over nonadjacent pairs, M=max(0, max_v(|Even(v)|−|E(G[Even(v)])|)), with distance zero included. All graphs finite, simple, connected. Prior [lower sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) record these entries as HOLD_ARSENAL or HOLD_TIGHT. All seven pages of author-project issue titles were screened; no exact earlier closed resolution of the selected 30 was identified there. Targeted public literature search was not exhaustive; issue #421's open status is not proof of present mathematical status or novelty. Davis's main index does not list these entries. No discovery-priority claim.
+
+## Statement
+alpha ≤ exp(cosh(max(min_common_neighbors,theta/sqrt(n)))).
+
+## Disproof
+Take K_m, m≥397, with three new leaves all attached to one clique vertex. Alpha=4 by clique partition plus the leaves, and theta=4 by the same four-clique cover and sandwich theorem. The minimum common-neighbor count is zero (a leaf and its hub have none), n≥400. The argument of cosh is at most 1/5, so cosh≤sum_{j≥0}(1/5)^(2j)=25/24<5/4. Since e<11/4 and (11/4)^5<(15/4)^4, the RHS is <15/4<4. At m=397, n=400.
+
+[Joint exact witness verifier](../graphbrain-alpha-upper-001/verify.py). Local Python/NetworkX execution (24 November 2026 US Central) completed 30/30 checks, including rational analytic comparisons. A strict witness suffices; the numerical tests are not independent refereeing.
