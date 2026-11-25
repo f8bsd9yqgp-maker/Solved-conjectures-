@@ -215,3 +215,20 @@ Ten explicit counterexamples, nine with infinite-family proofs. Each was marked 
 - [upper-046: Minimum degree minus vertex connectivity](proofs/graphbrain-alpha-upper-046/README.md) — disproof.
 
 [Joint witness verifier](proofs/graphbrain-alpha-lower-041/verify.py).
+
+## Graph Brain independence-number conjectures — ten further counterexamples (24 November 2026)
+
+Ten explicit disproofs (nine infinite families, one standalone counterexample); all ten local witness checks passed. Source issue remains open but current mathematical status and priority are unconfirmed. Prior August sweep reports these as holds, not complete proofs. The cumulative batch count reaches 100 documented entries, including reproductions and candidate resolutions, not 100 certified novel discoveries.
+
+- [lower-017: Negative eigenvalues and common neighbors](proofs/graphbrain-alpha-lower-017/README.md) — disproof.
+- [lower-029: Degree diversity and degeneracy](proofs/graphbrain-alpha-lower-029/README.md) — disproof.
+- [lower-032: Order, periphery and center](proofs/graphbrain-alpha-lower-032/README.md) — disproof.
+- [lower-048: Matching, girth and periphery exponential](proofs/graphbrain-alpha-lower-048/README.md) — disproof.
+- [lower-057: Matching, periphery and degree diversity](proofs/graphbrain-alpha-lower-057/README.md) — disproof.
+- [upper-041: Girth, nonadjacent degree sum and periphery](proofs/graphbrain-alpha-upper-041/README.md) — disproof.
+- [upper-086: Girth and nonadjacent degree sum](proofs/graphbrain-alpha-upper-086/README.md) — disproof.
+- [upper-090: Average degree and triangles](proofs/graphbrain-alpha-upper-090/README.md) — disproof.
+- [upper-078: Girth, order and radius](proofs/graphbrain-alpha-upper-078/README.md) — disproof.
+- [upper-137: Lovasz theta product and minimum degree](proofs/graphbrain-alpha-upper-137/README.md) — disproof.
+
+[Joint verifier](proofs/graphbrain-alpha-lower-017/verify.py).
