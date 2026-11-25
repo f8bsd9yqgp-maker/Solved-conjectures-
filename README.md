@@ -151,3 +151,17 @@ These are six catalogue entries, not six independently reviewed discoveries. The
 - [#434b: Independent domination and minimum degree of maximum-degree subgraph](proofs/graffiti-pc-434b/README.md) — candidate proof.
 
 [Joint finite verifier](proofs/graffiti-pc-372/verify.py).
+
+## Graffiti.pc — seven further documented arguments (24 November 2026)
+
+Five entries with no earlier exact numbered resolution identified in targeted searches (including #393a, a corollary of an established theorem), plus two independently derived arguments for previously resolved entries #412a and #412b, credited accordingly. These are not seven new discoveries. The August transcription lists them open; current later-page catalogue status unavailable. Independent review, priority and Lean verification remain pending.
+
+- [#393a: 2-domination and matching in the second pendant neighborhood](proofs/graffiti-pc-393a/README.md) — corollary of published theorem.
+- [#393b: 2-domination via support edges and private neighbors](proofs/graffiti-pc-393b/README.md) — candidate proof.
+- [#393c: 2-domination via closed pendant neighborhoods](proofs/graffiti-pc-393c/README.md) — candidate proof.
+- [#412a: Critical independent sets and the second pendant neighborhood](proofs/graffiti-pc-412a/README.md) — prior resolution identified.
+- [#412b: Critical independent sets and degree-two vertices](proofs/graffiti-pc-412b/README.md) — prior resolution identified.
+- [#412e: Critical independent sets and maximum degree in a pendant neighborhood](proofs/graffiti-pc-412e/README.md) — candidate proof.
+- [#450: Dissociation number via private neighbors of low-degree vertices](proofs/graffiti-pc-450/README.md) — candidate proof.
+
+[Joint exact verifier](proofs/graffiti-pc-393a/verify.py).
