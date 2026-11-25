@@ -303,3 +303,13 @@ Recovered the earlier 30-entry commit. Of 30 additional certificate checks, sixt
 - [lower-080: Girth, maximum degree and even-distance invariant](proofs/graphbrain-alpha-lower-080/README.md) — candidate disproof.
 
 [Joint witness verifier](proofs/graphbrain-alpha-lower-018/verify.py).
+
+## Five named conjecture/problem candidates — 24–25 November 2026
+
+These are AI-assisted written proof candidates, not independently certified discoveries. Each links to the original source; priority and external review remain outstanding. Spiro's two conjectures are separately stated but share a proof. The five entries bring the previously documented count of 148 to 153, including reproductions and candidates, not 153 confirmed novel resolutions.
+
+- [Akbari–Kumar–Mohar–Pragada–Zhang, positive square energy, Conjecture 1.2](proofs/akbari-kumar-mohar-pragada-zhang-square-energy/README.md) — unrestricted strict-inequality proof candidate. [Audit](proofs/akbari-kumar-mohar-pragada-zhang-square-energy/PROOF_AUDIT.md) · [Manuscript](proofs/akbari-kumar-mohar-pragada-zhang-square-energy/MANUSCRIPT.md) · [Exact rational verifier](proofs/akbari-kumar-mohar-pragada-zhang-square-energy/verify_integral_bounds.py) · [Original conjecture](https://arxiv.org/abs/2506.07264).
+- [Hu–Han, signed square-energy equality, Problem 6.1](proofs/hu-han-signed-square-energy/README.md) — classification of both equality cases using DNN rigidity. [Source](https://arxiv.org/abs/2608.18492).
+- [Bychawski, random graph two-fold automorphism edit distance, Conjecture 6.5](proofs/bychawski-two-fold-automorphism/README.md) — asymptotic minimum-edit characterization. [Source](https://arxiv.org/abs/2406.06267).
+- [Spiro, polynomial relations with the normalized Laplacian, Conjecture 5.7](proofs/spiro-matrix-relations-5-7/README.md) — proof and stronger commutation characterization.
+- [Spiro, adjacency-square eigenvector rigidity, Conjecture 5.9](proofs/spiro-matrix-relations-5-9/README.md) — Perron–Frobenius proof for all connected graphs. [Source for both Spiro conjectures](https://arxiv.org/abs/1706.03298).
