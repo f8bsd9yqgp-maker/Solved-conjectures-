@@ -397,3 +397,7 @@ Both recognition problems are Theta_2^P-complete by explicit reductions from ind
 ## Liu–Kitaev–Zhang simultaneous 0120 and 0121 avoidance (25 November 2026)
 
 [Exact scalar enumeration and proof](proofs/liu-kitaev-zhang-ascent-0120-0121/README.md) · [Reproducible verifier](proofs/liu-kitaev-zhang-ascent-0120-0121/verify.py) · [Original open problem](https://doi.org/10.46298/dmtcs.17977). General finite-sum enumeration and non-P-recursiveness argument; independent brute-force checks through length 10, formula evaluation through length 20. Simpler elementary expressions outside the excluded classes, independent review, and priority remain unresolved.
+
+## Fallat et al. complete-bipartite prism q-zero-forcing conjecture (2023)
+
+An explicit adversarial oracle strategy and rung-counting argument close the missing one-token gap in Conjecture 4.4: Z_q(K_{n,m} square K_2)=n+m for q>=1 and n,m>=2. A Gram-matrix proof also gives Z_0=2 min(n,m). [Proof](proofs/fallat-q-zero-forcing-prism/README.md) · [Verifier](proofs/fallat-q-zero-forcing-prism/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
