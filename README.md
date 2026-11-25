@@ -380,3 +380,7 @@ A construction disproves the one-third-plus-constant bound even for connected pl
 ## Caro–Petruševski–Škrekovski–Tuza hypercube odd-independence limit
 
 A binary syndrome construction proves that the normalized odd independence number of even-dimensional hypercubes tends to 1/2, answering the asymptotic question in their 2025 paper. The normalized deficit is of order 1/d. Exact unrestricted finite-dimensional values are not claimed. [Proof](proofs/caro-odd-independence-hypercube/README.md) · [Verifier](proofs/caro-odd-independence-hypercube/verify.py). AI-assisted note dated 25 November 2026; priority and independent review remain unverified.
+
+## Caro–Petruševski–Škrekovski–Tuza high-dimensional grid conjecture (Conjecture 28)
+
+The conjectured odd-independence density limit 1/3 is disproved: the actual limit is 1/2. A period-four lattice covering of the binary hypercube transfers the preceding syndrome construction; a boundary-corrected double count supplies the upper bound. [Proof](proofs/caro-odd-independence-grid/README.md) · [Verifier](proofs/caro-odd-independence-grid/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
