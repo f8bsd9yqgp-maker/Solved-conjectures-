@@ -288,3 +288,18 @@ All 30 witness checks passed, including exact rational transcendental bounds and
 [Joint exact verifier](proofs/graphbrain-alpha-upper-001/verify.py).
 
 **Priority correction:** the previously uploaded upper-002 and upper-061 are already disproved in author-project [issue #226](https://github.com/math1um/objects-invariants-properties/issues/226) and [issue #241](https://github.com/math1um/objects-invariants-properties/issues/241), respectively. Both have been marked as prior results; no claim of novel resolution. The counterexamples themselves remain valid.
+
+## Graph Brain — eight additional counterexamples after interruption recovery (24 November 2026)
+
+Recovered the earlier 30-entry commit. Of 30 additional certificate checks, sixteen overlapped with it, and six had prior author-project disproofs (lower-003 #382/#159, lower-004 #383, lower-005 #384, lower-006 #386, lower-007 #150, lower-013 #243). Those 22 are not counted again. Eight remaining candidate disproofs added. Current total 148 documented entries, including candidate resolutions and reproductions, not 148 certified discoveries. Prior sweep reports holds for these eight; priority and independent review pending.
+
+- [lower-018: Theta and inverse degrees](proofs/graphbrain-alpha-lower-018/README.md) — candidate disproof.
+- [upper-132: Normalized theta and Szekeres-Wilf](proofs/graphbrain-alpha-upper-132/README.md) — candidate disproof.
+- [upper-063: Parity, maximum degree and periphery](proofs/graphbrain-alpha-upper-063/README.md) — candidate disproof.
+- [upper-057: Periphery, common neighbors and radius](proofs/graphbrain-alpha-upper-057/README.md) — candidate disproof.
+- [upper-014: Even-distance invariant and matching](proofs/graphbrain-alpha-upper-014/README.md) — candidate disproof.
+- [upper-028: Degree diversity and common neighbors](proofs/graphbrain-alpha-upper-028/README.md) — candidate disproof.
+- [upper-113: Density and mean distance](proofs/graphbrain-alpha-upper-113/README.md) — candidate disproof.
+- [lower-080: Girth, maximum degree and even-distance invariant](proofs/graphbrain-alpha-lower-080/README.md) — candidate disproof.
+
+[Joint witness verifier](proofs/graphbrain-alpha-lower-018/verify.py).
