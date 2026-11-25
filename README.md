@@ -339,3 +339,7 @@ Three spectral inequalities and three distributed-flooding questions. Four were 
 - [Hussak–Trehan 2023, Open Problem 5 — product network nontermination](proofs/hussak-trehan-delayed-flooding/README.md#open-problem-5-a-negative-answer-for-the-proposed-cartesian-cylinder-grids).
 
 Independent review, current individual prior-resolution status and discovery priority remain pending. Future additions should be deduplicated and supported by a complete argument or explicit reproducible counterexample; unresolved attempts should not increment the count.
+
+## Supplementary algorithm — not counted as a new conjecture solution (25 November 2026)
+
+[Bounded-backdegree tournament recognition](proofs/aboulker-aubian-lopes-bounded-backdegree/README.md) — fixed-parameter algorithm for arbitrary backdegree bound, checked against 3,297 exhaustive comparisons. Aboulker–Aubian–Lopes Problem 4.4's matching case was already resolved in [2017, Lemma C.47](https://arxiv.org/abs/1707.04220); this is an alternative argument and generalization. Connected-path case and priority for the generalization remain open. The cumulative documented conjecture/problem count remains 169.
