@@ -388,3 +388,7 @@ The conjectured odd-independence density limit 1/3 is disproved: the actual limi
 ## Achour degree-spread conjecture (tree counterexample, prior general disproof)
 
 An 11-vertex subcubic tree violates the conjecture; exhaustive enumeration establishes minimality among trees. Corona paths give unbounded excess with fixed degree spread. A regular-graph counterexample to the underlying inequality predates this note. [Proof](proofs/achour-degree-spread-trees/README.md) · [Verifier](proofs/achour-degree-spread-trees/verify.py). AI-assisted note dated 25 November 2026; priority and independent review remain unverified.
+
+## Caro–Petruševski–Škrekovski–Tuza odd-independence equality problem (Problem 34)
+
+Both recognition problems are Theta_2^P-complete by explicit reductions from independence-number comparison, answering the complexity alternatives of the published problem. The reductions give connected graphs of diameter at most two and three, respectively. [Proof](proofs/caro-odd-independence-equality-complexity/README.md) · [Verifier](proofs/caro-odd-independence-equality-complexity/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
