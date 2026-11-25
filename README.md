@@ -384,3 +384,7 @@ A binary syndrome construction proves that the normalized odd independence numbe
 ## Caro–Petruševski–Škrekovski–Tuza high-dimensional grid conjecture (Conjecture 28)
 
 The conjectured odd-independence density limit 1/3 is disproved: the actual limit is 1/2. A period-four lattice covering of the binary hypercube transfers the preceding syndrome construction; a boundary-corrected double count supplies the upper bound. [Proof](proofs/caro-odd-independence-grid/README.md) · [Verifier](proofs/caro-odd-independence-grid/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
+
+## Achour degree-spread conjecture (tree counterexample, prior general disproof)
+
+An 11-vertex subcubic tree violates the conjecture; exhaustive enumeration establishes minimality among trees. Corona paths give unbounded excess with fixed degree spread. A regular-graph counterexample to the underlying inequality predates this note. [Proof](proofs/achour-degree-spread-trees/README.md) · [Verifier](proofs/achour-degree-spread-trees/verify.py). AI-assisted note dated 25 November 2026; priority and independent review remain unverified.
