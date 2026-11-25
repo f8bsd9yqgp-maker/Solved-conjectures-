@@ -372,3 +372,7 @@ An explicit reduction from strongly NP-complete 3-PARTITION proves strong NP-com
 ## Graffiti.pc Conjecture 232
 
 [Unrestricted written candidate proof](proofs/graffiti-pc-232/README.md) of the total-domination lower bound involving radius and peripheral eccentricity. Independent review and priority pending.
+
+## Bensmail et al. edge-irregularity deletion conjecture (restricted-class strengthening)
+
+A construction disproves the one-third-plus-constant bound even for connected planar graphs of maximum degree three. An earlier general disproof was reported by Myeongjin Kang in November 2026; this note does not claim first resolution of the original conjecture. [Proof and prior-art qualification](proofs/bensmail-edge-irregularity-subcubic/README.md) · [Verifier](proofs/bensmail-edge-irregularity-subcubic/verify.py). Independent review and priority of the strengthening remain unverified.
