@@ -138,3 +138,16 @@ Direct mathematical proofs, with a separate tie-convention counterexample for #3
 - [#423: Independent domination and minimum-degree neighborhoods](proofs/graffiti-pc-423/README.md) — candidate proof.
 
 [Joint finite verifier](proofs/graffiti-pc-379/verify.py).
+
+## Graffiti.pc — six further candidate proofs (24 November 2026)
+
+These are six catalogue entries, not six independently reviewed discoveries. The August transcription marks them open; latest later-page status could not be confirmed. No earlier complete solutions were identified by targeted searches. The seventh requested result was not established.
+
+- [#372: Vertex cover and path partition of a tree](proofs/graffiti-pc-372/README.md) — candidate proof on defined domain.
+- [#410a: Critical independent sets and maximum even-distance counts](proofs/graffiti-pc-410a/README.md) — candidate proof.
+- [#410b: Critical independent sets and minimum even-distance counts](proofs/graffiti-pc-410b/README.md) — candidate proof.
+- [#432b: Independent domination, supports and distance parity](proofs/graffiti-pc-432b/README.md) — candidate proof.
+- [#434a: Independent domination and complement degeneracy](proofs/graffiti-pc-434a/README.md) — candidate proof.
+- [#434b: Independent domination and minimum degree of maximum-degree subgraph](proofs/graffiti-pc-434b/README.md) — candidate proof.
+
+[Joint finite verifier](proofs/graffiti-pc-372/verify.py).
