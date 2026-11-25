@@ -355,3 +355,7 @@ Independent review, current individual prior-resolution status and discovery pri
 ## Aboulker–Aubian–Charbit–Lopes substitution conjecture (25 November 2026)
 
 [General constructive disproof of published Conjecture 6.2 (earlier 6.1)](proofs/aboulker-aubian-charbit-lopes-digraph-substitution/README.md). A hereditary class of oriented graphs of dichromatic number at most two has substitution closure containing digraphs of directed clique number two and arbitrarily large dichromatic number. [Original paper](https://doi.org/10.37236/12557). The tournament theorem is unaffected. Independent review and discovery priority remain pending. Cumulative documented entries: 172, including reproductions and candidate resolutions.
+
+## Ledford–Rivera-Ayala–Schroeder Conjecture 5.13 (25 November 2026)
+
+[General Radon subdivision proof and explicit quadratic correction](proofs/ledford-rivera-ayala-schroeder-polytope-5-13/README.md). Covers all full-dimensional polytopes with d+2 vertices, including degenerate affine circuits, under the intended completed-edge and intersection-induced partition interpretation of the source. [Original conjecture](https://arxiv.org/abs/2509.05611). Not a claim for every arbitrary prescribed partition center; independent review and priority pending. Cumulative documented entries: 173, including reproductions and candidate resolutions.
