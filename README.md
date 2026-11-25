@@ -328,3 +328,14 @@ These are AI-assisted written proof candidates, not independently certified disc
 - lower-084 — counterexample
 - upper-043 — proof candidate
 - upper-074 — proof candidate
+
+## Six additional documented conjecture/open-problem resolutions (25 November 2026)
+
+Three spectral inequalities and three distributed-flooding questions. Four were derived in earlier chats and uploaded here after checking the original statements; two are new open-problem answers. All are AI-assisted candidate resolutions, not independently verified novel discoveries. The weighted-cycle theorem correction uses the same witness as Open Problem 2 and is not counted separately. Cumulative documented entries: 169.
+
+- [Cazenave Conjectures 3, 5 and 6(i) — three proofs](proofs/cazenave-spectral-3-5-6i/README.md).
+- [Turau 2020, amnesiac flooding radius conjecture — counterexample](proofs/turau-amnesiac-flooding/README.md).
+- [Hussak–Trehan 2023, Open Problem 2 — single fixed-delay edge nontermination](proofs/hussak-trehan-delayed-flooding/README.md#open-problem-2-a-negative-answer).
+- [Hussak–Trehan 2023, Open Problem 5 — product network nontermination](proofs/hussak-trehan-delayed-flooding/README.md#open-problem-5-a-negative-answer-for-the-proposed-cartesian-cylinder-grids).
+
+Independent review, current individual prior-resolution status and discovery priority remain pending. Future additions should be deduplicated and supported by a complete argument or explicit reproducible counterexample; unresolved attempts should not increment the count.
