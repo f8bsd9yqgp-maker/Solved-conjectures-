@@ -313,3 +313,18 @@ These are AI-assisted written proof candidates, not independently certified disc
 - [Bychawski, random graph two-fold automorphism edit distance, Conjecture 6.5](proofs/bychawski-two-fold-automorphism/README.md) — asymptotic minimum-edit characterization. [Source](https://arxiv.org/abs/2406.06267).
 - [Spiro, polynomial relations with the normalized Laplacian, Conjecture 5.7](proofs/spiro-matrix-relations-5-7/README.md) — proof and stronger commutation characterization.
 - [Spiro, adjacency-square eigenvector rigidity, Conjecture 5.9](proofs/spiro-matrix-relations-5-9/README.md) — Perron–Frobenius proof for all connected graphs. [Source for both Spiro conjectures](https://arxiv.org/abs/1706.03298).
+
+## Graph Brain — ten additional candidate resolutions (25 November 2026)
+
+[Full proofs, counterexamples and exact verification code](proofs/graphbrain-alpha-2026-11-25-ten/README.md). Five written proofs (three immediate degeneracy-coloring corollaries) and five explicit disproofs. IDs checked against the existing index and original catalogue. Independent review and priority remain unverified. Cumulative documented entries: 163, including reproductions and candidates, not 163 certified novel discoveries.
+
+- lower-019 — proof candidate
+- lower-021 — proof candidate
+- lower-038 — proof candidate
+- lower-052 — counterexample
+- lower-058 — counterexample
+- lower-060 — counterexample
+- lower-067 — counterexample
+- lower-084 — counterexample
+- upper-043 — proof candidate
+- upper-074 — proof candidate
