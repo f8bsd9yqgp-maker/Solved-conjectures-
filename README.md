@@ -232,3 +232,20 @@ Ten explicit disproofs (nine infinite families, one standalone counterexample); 
 - [upper-137: Lovasz theta product and minimum degree](proofs/graphbrain-alpha-upper-137/README.md) — disproof.
 
 [Joint verifier](proofs/graphbrain-alpha-lower-017/verify.py).
+
+## Graph Brain — ten further disproofs using three graph constructions (24 November 2026)
+
+All ten explicit infinite-family arguments and local witness checks passed. Seven use a common clique-chain lemma, two use a dense core with two arms, and one uses a split graph. Prior sweep reports holds; no priority or independent-review claim. Cumulative batch count: 110 documented entries, including earlier reproductions and candidate resolutions.
+
+- [lower-037: Degree diversity, degeneracy and minimum degree](proofs/graphbrain-alpha-lower-037/README.md) — disproof.
+- [upper-004: Girth exponential and even-distance invariant](proofs/graphbrain-alpha-upper-004/README.md) — disproof.
+- [upper-012: Maximum degree squared and even-distance invariant](proofs/graphbrain-alpha-upper-012/README.md) — disproof.
+- [upper-013: Center size exponential and even-distance invariant](proofs/graphbrain-alpha-upper-013/README.md) — disproof.
+- [upper-035: Degree, center and even-distance invariant](proofs/graphbrain-alpha-upper-035/README.md) — disproof.
+- [upper-093: Degree squared, mean distance and even-distance invariant](proofs/graphbrain-alpha-upper-093/README.md) — disproof.
+- [upper-102: Common neighbors, maximum degree and even-distance invariant](proofs/graphbrain-alpha-upper-102/README.md) — disproof.
+- [upper-110: Hyperbolic sine, triangles and even-distance invariant](proofs/graphbrain-alpha-upper-110/README.md) — disproof.
+- [upper-055: Mean distance and squared radius](proofs/graphbrain-alpha-upper-055/README.md) — disproof.
+- [upper-092: Radius, periphery and degree diversity](proofs/graphbrain-alpha-upper-092/README.md) — disproof.
+
+[Joint verifier](proofs/graphbrain-alpha-lower-037/verify.py).

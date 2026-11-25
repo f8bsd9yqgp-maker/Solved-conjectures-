@@ -1,0 +1,11 @@
+# Graph Brain alpha lower-037 — Degree diversity, degeneracy and minimum degree
+
+24 November 2026 (US Central). AI-assisted counterexample note. Source: [Graph Brain issue #421](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086), posted 2017; ID from the [August 2026 transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). The author [invariant definitions](https://github.com/math1um/objects-invariants-properties/blob/master/src/Invariants/invariants.sage) were checked: SW is degeneracy plus one and MEEH is the maximum of zero and the number of even-distance vertices minus their induced edge count. The prior [lower sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) report these entries as holds in the tested families. A targeted public search did not establish earlier exact resolutions; current mathematical status and discovery priority remain unconfirmed. No independent review or Lean certification. Graphs are finite, simple and connected.
+
+## Statement
+α≥(dd−SW)δ.
+
+## Disproof
+For k≥7, take a clique c_1,...,c_(k+1) and independent vertices x_1,...,x_k, with x_j adjacent to c_1,...,c_(j+1). Independent-vertex degrees are 2,...,k+1. Clique-vertex degrees include every integer from k+1 through 2k (c_1 and c_2 both have degree 2k). Hence dd=2k−1 and δ=2. The clique plus x_k is K_(k+2), while deleting all independent vertices of degree at most k+1 leaves a clique of order k+1; this gives degeneracy exactly k+1 and SW=k+2. The independent set of all x_j has size k, and an independent set containing one clique vertex can contain at most k−1 other vertices because that clique vertex has at least one independent neighbor. Therefore α=k. The proposed bound is 2(k−3)>k for every k≥7. At k=7, α=7<8. ∎
+
+[Joint witness verifier](../graphbrain-alpha-lower-037/verify.py): the Python/NetworkX script was executed locally and all ten checks passed. Analytic inequalities bound transcendental terms without relying on floating-point approximations. The family proof establishes the disproof independently of the test.
