@@ -376,3 +376,7 @@ An explicit reduction from strongly NP-complete 3-PARTITION proves strong NP-com
 ## Bensmail et al. edge-irregularity deletion conjecture (restricted-class strengthening)
 
 A construction disproves the one-third-plus-constant bound even for connected planar graphs of maximum degree three. An earlier general disproof was reported by Myeongjin Kang in November 2026; this note does not claim first resolution of the original conjecture. [Proof and prior-art qualification](proofs/bensmail-edge-irregularity-subcubic/README.md) · [Verifier](proofs/bensmail-edge-irregularity-subcubic/verify.py). Independent review and priority of the strengthening remain unverified.
+
+## Caro–Petruševski–Škrekovski–Tuza hypercube odd-independence limit
+
+A binary syndrome construction proves that the normalized odd independence number of even-dimensional hypercubes tends to 1/2, answering the asymptotic question in their 2025 paper. The normalized deficit is of order 1/d. Exact unrestricted finite-dimensional values are not claimed. [Proof](proofs/caro-odd-independence-hypercube/README.md) · [Verifier](proofs/caro-odd-independence-hypercube/verify.py). AI-assisted note dated 25 November 2026; priority and independent review remain unverified.
