@@ -1,0 +1,11 @@
+# Graph Brain alpha upper-034 — Girth, maximum degree and center size
+
+24 November 2026 (US Central). AI-assisted mathematical counterexample. All graphs are finite, simple and connected. The original [lower-bound issue](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086) were checked, including the author-project definition of sigma_2 as the minimum degree sum over nonadjacent pairs. IDs are from the [corpus transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). The August 2026 [lower sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) label the corresponding entries HOLD_ARSENAL, which is not a proof or comprehensive priority search. Neither Davis's main index nor our existing index includes these entries. Targeted web searches returned no relevant results; current mathematical status and discovery priority are unconfirmed. Independent review and Lean verification remain pending.
+
+## Statement
+α ≤ girth^Δ+|C|.
+
+## Disproof
+Start with a triangle with distinguished vertex h and attach two internally disjoint paths of length k≥2 edges, both starting at h and otherwise disjoint from the triangle. The girth is three, maximum degree four, and diameter 2k. The unique center is h, since each other vertex is farther than k from at least one path endpoint. The only peripheral vertices are those two endpoints: every other vertex is at distance strictly less than 2k from all vertices (the other triangle vertices reach endpoints in k+1<2k). Choose alternate vertices of each arm, excluding h, giving an independent set of size 2 ceil(k/2)≥k. The right side is 3^4+1=82; all k≥83 yield counterexamples. The tested member k=84 has an independent set of size 84. ∎
+
+[Joint witness verifier](../graphbrain-alpha-lower-041/verify.py). All ten witness checks passed in a local Python/NetworkX execution on 24 November 2026. The written counterexamples suffice independently of the finite checks.

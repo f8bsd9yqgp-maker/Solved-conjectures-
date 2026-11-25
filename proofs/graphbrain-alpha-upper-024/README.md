@@ -1,0 +1,11 @@
+# Graph Brain alpha upper-024 — Periphery and matching hyperbolic-cosine bound
+
+24 November 2026 (US Central). AI-assisted mathematical counterexample. All graphs are finite, simple and connected. The original [lower-bound issue](https://github.com/math1um/objects-invariants-properties/issues/421) and [upper-bound comment](https://github.com/math1um/objects-invariants-properties/issues/421#issuecomment-327846086) were checked, including the author-project definition of sigma_2 as the minimum degree sum over nonadjacent pairs. IDs are from the [corpus transcription](https://github.com/Kuberwastaken/c5-k4/blob/main/corpora/graphbrain_open_alpha.json). The August 2026 [lower sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_lower.md) and [upper sweep](https://github.com/Kuberwastaken/c5-k4/blob/main/results/expansion/graphbrain_upper.md) label the corresponding entries HOLD_ARSENAL, which is not a proof or comprehensive priority search. Neither Davis's main index nor our existing index includes these entries. Targeted web searches returned no relevant results; current mathematical status and discovery priority are unconfirmed. Independent review and Lean verification remain pending.
+
+## Statement
+α ≤ 10^cosh(μ−|Per|).
+
+## Disproof
+For r≥6 start with a path on 4r−2 vertices and attach r private leaves to each of its endpoints. Its only peripheral vertices are the 2r attached leaves, since pairs from opposite ends realize the diameter and all other vertices have smaller eccentricity. Its matching number is 2r: matching each endpoint to one attached leaf and perfectly matching the remaining 4r−4 path vertices attains 2r. Any matching uses at most two new leaf edges; if it uses j≤2, at most floor((4r−2−j)/2) other edges can occur. The total is at most 2r. Thus cosh(μ−|Per|)=cosh(0)=1 and the asserted upper bound is ten. The 2r private leaves form an independent set of size at least twelve. This is an infinite counterexample family. ∎
+
+[Joint witness verifier](../graphbrain-alpha-lower-041/verify.py). All ten witness checks passed in a local Python/NetworkX execution on 24 November 2026. The written counterexamples suffice independently of the finite checks.

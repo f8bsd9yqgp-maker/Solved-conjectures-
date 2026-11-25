@@ -198,3 +198,20 @@ Ten source-faithful disproofs by infinite families. Each entry was a HOLD_ARSENA
 - [upper-080: Radius and maximum-degree squared upper bound](proofs/graphbrain-alpha-upper-080/README.md) — counterexample family.
 
 [Joint witness verifier](proofs/graphbrain-alpha-lower-016/verify.py).
+
+## Graph Brain independence-number conjectures — ten further disproofs (24 November 2026)
+
+Ten explicit counterexamples, nine with infinite-family proofs. Each was marked HOLD_ARSENAL in the August 2026 sweep; no claim of priority or independent verification. All ten witness checks passed. Original issue and definitions checked.
+
+- [lower-041: Degree diversity and nonadjacent degree sum](proofs/graphbrain-alpha-lower-041/README.md) — disproof.
+- [lower-043: Degree diversity and cut vertices](proofs/graphbrain-alpha-lower-043/README.md) — disproof.
+- [lower-050: Degree diversity and order-to-degree-sum ratio](proofs/graphbrain-alpha-lower-050/README.md) — disproof.
+- [upper-024: Periphery and matching hyperbolic-cosine bound](proofs/graphbrain-alpha-upper-024/README.md) — disproof.
+- [upper-034: Girth, maximum degree and center size](proofs/graphbrain-alpha-upper-034/README.md) — disproof.
+- [upper-037: Girth, center and periphery power bound](proofs/graphbrain-alpha-upper-037/README.md) — disproof.
+- [upper-047: Degree diversity, periphery and density](proofs/graphbrain-alpha-upper-047/README.md) — disproof.
+- [upper-076: Diameter and degree sum](proofs/graphbrain-alpha-upper-076/README.md) — disproof.
+- [upper-038: Maximum degree, minimum degree and density](proofs/graphbrain-alpha-upper-038/README.md) — disproof.
+- [upper-046: Minimum degree minus vertex connectivity](proofs/graphbrain-alpha-upper-046/README.md) — disproof.
+
+[Joint witness verifier](proofs/graphbrain-alpha-lower-041/verify.py).
