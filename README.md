@@ -359,3 +359,7 @@ Independent review, current individual prior-resolution status and discovery pri
 ## Ledford–Rivera-Ayala–Schroeder Conjecture 5.13 (25 November 2026)
 
 [General Radon subdivision proof and explicit quadratic correction](proofs/ledford-rivera-ayala-schroeder-polytope-5-13/README.md). Covers all full-dimensional polytopes with d+2 vertices, including degenerate affine circuits, under the intended completed-edge and intersection-induced partition interpretation of the source. [Original conjecture](https://arxiv.org/abs/2509.05611). Not a claim for every arbitrary prescribed partition center; independent review and priority pending. Cumulative documented entries: 173, including reproductions and candidate resolutions.
+
+## Graffiti.pc Conjecture 76
+
+A connected 20-vertex graph made of five copies of K4 joined by four bridges disproves the proposed lower bound on induced-tree order. An infinite family gives unbounded violation. [Proof and construction](proofs/graffiti-pc-76/README.md) · [Exact Python verifier](proofs/graffiti-pc-76/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
