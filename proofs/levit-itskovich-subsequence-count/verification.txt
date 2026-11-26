@@ -1,0 +1,3 @@
+Graph atlas: 1252 nonempty graphs; 906 all-intersecting, 346 disjoint-pair cases: PASS
+Seeded random graphs: 1000 graphs; 596 all-intersecting, 404 disjoint-pair cases: PASS
+All permutations through length 8: 46233 cases: PASS
