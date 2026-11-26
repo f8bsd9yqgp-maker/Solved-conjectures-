@@ -1,0 +1,3 @@
+Atlas graphs: 265; exact extension-count checks: 234187; exact prefix checks: 234187
+Randomized proper-coloring switch checks: 1152; explicit regular ring constructions: 15
+All assertions passed. Finite checks supplement, not replace, the proof.
