@@ -1,0 +1,5 @@
+n=4: all 720 orders checked, 144 fragmented: PASS
+n=5: all 17,280 generated fragmented orders verified: PASS
+n=5: 5,000 deterministic sampled orders: PASS
+n=6: 5,000 deterministic sampled orders: PASS
+n=7: 5,000 deterministic sampled orders: PASS
