@@ -409,3 +409,7 @@ For all finite nonempty subtraction sets with maximum M, all four fixed friendly
 ## Antagonistic-deviation monotonicity in self-interest subtraction games (Problem 6)
 
 A five-move subtraction set S={5,7,18,23,24} at heap size 153 gives equilibrium outcomes AvF=(79,73) and AvA=(79,74). The switching second player strictly gains, answering Problem 6 negatively. [Proof](proofs/subtraction-game-antagonistic-deviation/README.md) · [Exact verifier](proofs/subtraction-game-antagonistic-deviation/verify.py). AI-assisted note dated 25 November 2026; independent review and publication priority remain unverified.
+
+## Quantum transport polygon-bound conjecture (Conjecture 7.7)
+
+For finite-spectrum observables, all 0<p<=1 and q>1, a directed-cycle integral comparison proves the exact operator-norm polygon bound and constructs an optimizer using at most n-1 spectral-projection costs. The q=1 case is immediate; for q<1 the distance is zero but single exponent-one attainment is not generally possible. [Candidate proof](proofs/quantum-transport-polygon-bound/README.md) · [Exact verifier](proofs/quantum-transport-polygon-bound/verify.js) · [Original conjecture](https://doi.org/10.5281/zenodo.24261889). AI-assisted note dated 26 November 2026; 960 exact tests passed, independent review and priority remain unverified.
