@@ -1,0 +1,7 @@
+1 colors: forced failure within 2 moves; 1 cached states
+2 colors: forced failure within 4 moves; 2 cached states
+3 colors: forced failure within 8 moves; 16 cached states
+4 colors: forced failure within 16 moves; 116 cached states
+5 colors: forced failure within 32 moves; 10300 cached states
+Universal tree depth 8: 2056 nodes; all stack and noncrossing checks passed.
+Optional q=6 calculation exceeded a 10-second time limit; no finite result is claimed for that case.
