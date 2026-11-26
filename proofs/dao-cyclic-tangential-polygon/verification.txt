@@ -1,0 +1,1 @@
+4848 polygons; 133320 vertex/interior checks; 48 regular equality checks: PASS (floating-point tolerance 1e-10)
