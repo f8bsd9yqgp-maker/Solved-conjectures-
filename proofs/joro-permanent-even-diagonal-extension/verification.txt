@@ -1,0 +1,1 @@
+80 residue representatives checked: all exact congruences passed.
