@@ -1,0 +1,4 @@
+k=1: n=7, OSO=5, ISO=5, conjectured bound=5: PASS
+k=2: n=11, OSO=8, ISO=8, conjectured bound=8: PASS
+k=3: n=15, OSO=11, ISO=11, conjectured bound=10: PASS
+Explicit upper-bound witnesses: 100 weakly connected digraphs passed both security checks.
