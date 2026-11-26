@@ -1,4 +1,4 @@
-# Solved conjectures
+# Solved Conjectures and Solved Math
 
 ## Pure-state Wigner negativity
 
@@ -413,3 +413,7 @@ A five-move subtraction set S={5,7,18,23,24} at heap size 153 gives equilibrium 
 ## Quantum transport polygon-bound conjecture (Conjecture 7.7)
 
 For finite-spectrum observables, all 0<p<=1 and q>1, a directed-cycle integral comparison proves the exact operator-norm polygon bound and constructs an optimizer using at most n-1 spectral-projection costs. The q=1 case is immediate; for q<1 the distance is zero but single exponent-one attainment is not generally possible. [Candidate proof](proofs/quantum-transport-polygon-bound/README.md) · [Exact verifier](proofs/quantum-transport-polygon-bound/verify.js) · [Original conjecture](https://doi.org/10.5281/zenodo.24261889). AI-assisted note dated 26 November 2026; 960 exact tests passed, independent review and priority remain unverified.
+
+## A37 — Uniform Carleman convergence in the Siegel domain
+
+A quantitative analytic-linearization argument controls products of Diophantine small denominators by binary-tree counting, giving uniform forward-time geometric convergence of the finite Carleman truncation under an explicit dimension-independent smallness criterion. [Candidate proof](proofs/carleman-siegel-convergence-a37/README.md) · [Open Quantum Problems A37](https://open-quantum-problems.vercel.app/p/A37) · [Original paper](https://doi.org/10.22331/q-2026-10-08-2233). AI-assisted note dated 26 November 2026; independent review, formal verification and priority remain unestablished.
