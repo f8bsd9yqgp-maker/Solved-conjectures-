@@ -405,3 +405,7 @@ An explicit adversarial oracle strategy and rung-counting argument close the mis
 ## Self-interest subtraction game preperiod bound (Problem 3)
 
 For all finite nonempty subtraction sets with maximum M, all four fixed friendly/antagonistic equilibrium discrepancy sequences are eventually periodic with a common preperiod and period bounded by 2M[1+(M(M+1)/2)^(4M)]. The specific period 2M remains unresolved. [Proof and scope](proofs/self-interest-subtraction-preperiod/README.md). AI-assisted note dated 25 November 2026; independent review and publication priority remain unverified. Not a new resolution of Conjecture 17, for which a prior proof exists.
+
+## Antagonistic-deviation monotonicity in self-interest subtraction games (Problem 6)
+
+A five-move subtraction set S={5,7,18,23,24} at heap size 153 gives equilibrium outcomes AvF=(79,73) and AvA=(79,74). The switching second player strictly gains, answering Problem 6 negatively. [Proof](proofs/subtraction-game-antagonistic-deviation/README.md) · [Exact verifier](proofs/subtraction-game-antagonistic-deviation/verify.py). AI-assisted note dated 25 November 2026; independent review and publication priority remain unverified.
