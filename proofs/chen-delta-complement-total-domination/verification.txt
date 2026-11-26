@@ -1,0 +1,2 @@
+Graph atlas: 1252 nonempty graphs through order 7; 960 eligible degree-partition checks passed (exact minima).
+Arbitrary partitions: 2442 eligible checks out of 3000 seeded trials passed (constructive witnesses).
