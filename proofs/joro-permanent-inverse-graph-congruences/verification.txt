@@ -1,0 +1,17 @@
+Executed commands:
+g++ -O3 verify.cpp -o verify && ./verify
+
+Order | invertible graphs checked (zero failures)
+4 4345
+6 4292
+8 4141
+10 4210
+12 1241
+14 125
+16 129
+Total: 18483 invertible graphs out of 43600 seeded draws.
+
+python verify_parity.py
+Parity identities verified on 513 invertible graphs
+
+The analytic proof is independent of these finite checks.
