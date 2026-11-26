@@ -417,3 +417,7 @@ For finite-spectrum observables, all 0<p<=1 and q>1, a directed-cycle integral c
 ## A37 — Uniform Carleman convergence in the Siegel domain
 
 A quantitative analytic-linearization argument controls products of Diophantine small denominators by binary-tree counting, giving uniform forward-time geometric convergence of the finite Carleman truncation under an explicit dimension-independent smallness criterion. [Candidate proof](proofs/carleman-siegel-convergence-a37/README.md) · [Open Quantum Problems A37](https://open-quantum-problems.vercel.app/p/A37) · [Original paper](https://doi.org/10.22331/q-2026-10-08-2233). AI-assisted note dated 26 November 2026; independent review, formal verification and priority remain unestablished.
+
+## Revised Cheeger–Pareto conjecture (Conjecture B)
+
+For every odd integer s>=7, a connected graph on 3s+1 vertices has Cheeger constant 2-1/s and a Pareto-efficient feasible point of coordinate sum 3s-1, violating the revised lower bound by at least (s-1)/(2s). [Analytical disproof](proofs/cheeger-pareto/README.md) · [Exact verifier](proofs/cheeger-pareto/verify.py) · [Verification output](proofs/cheeger-pareto/verification.txt) · [Original conjecture](https://mathoverflow.net/questions/506070/conjecture-involving-the-cheeger-constant-of-a-graph). AI-assisted note dated 26 November 2026; 2,449,867 cut constraints verified for the first member. Both repositories and targeted public sources screened; independent review, formal verification and discovery priority remain unconfirmed.
