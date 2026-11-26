@@ -1,0 +1,5 @@
+N=1000, X=7927: gap_sum=2888000, composite_sum=2907331, gap_ratio_to_asymptotic=1.279603, certified_violations=14
+N=10000, X=104743: gap_sum=372091216, composite_sum=372438462, gap_ratio_to_asymptotic=1.215750, certified_violations=447
+N=78497, X=999983: gap_sum=27431256279, composite_sum=27435293672, gap_ratio_to_asymptotic=1.175281, certified_violations=6052
+last exact upper-bound violation (n,p_n,p_next,S,W,j): (78494, 999953, 999959, 771829, 12, 10)
+All integer accounting identities passed.
