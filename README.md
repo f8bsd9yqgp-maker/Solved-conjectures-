@@ -401,3 +401,7 @@ Both recognition problems are Theta_2^P-complete by explicit reductions from ind
 ## Fallat et al. complete-bipartite prism q-zero-forcing conjecture (2023)
 
 An explicit adversarial oracle strategy and rung-counting argument close the missing one-token gap in Conjecture 4.4: Z_q(K_{n,m} square K_2)=n+m for q>=1 and n,m>=2. A Gram-matrix proof also gives Z_0=2 min(n,m). [Proof](proofs/fallat-q-zero-forcing-prism/README.md) · [Verifier](proofs/fallat-q-zero-forcing-prism/verify.py). AI-assisted note dated 25 November 2026; independent review and priority remain unverified.
+
+## Self-interest subtraction game preperiod bound (Problem 3)
+
+For all finite nonempty subtraction sets with maximum M, all four fixed friendly/antagonistic equilibrium discrepancy sequences are eventually periodic with a common preperiod and period bounded by 2M[1+(M(M+1)/2)^(4M)]. The specific period 2M remains unresolved. [Proof and scope](proofs/self-interest-subtraction-preperiod/README.md). AI-assisted note dated 25 November 2026; independent review and publication priority remain unverified. Not a new resolution of Conjecture 17, for which a prior proof exists.
