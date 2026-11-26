@@ -1,0 +1,1 @@
+s=7, n=22, edges=93, k=11, cuts_checked=2449867, h=13/7, witness_sum=20, gap_at_least=3/7, tight_sets=3, Pareto_cover=all_vertices: PASS
