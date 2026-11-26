@@ -1,0 +1,3 @@
+b=8/5: ratios=(Fraction(1181, 782), Fraction(10687, 6460), Fraction(7, 20)); all adjacent vertices feasible, strict nonincident slacks: PASS
+b=17/10: ratios=(Fraction(1181, 782), Fraction(2931, 1615), Fraction(1, 5)); all adjacent vertices feasible, strict nonincident slacks: PASS
+Endpoint certificates imply all affine inequalities throughout [8/5,17/10].
