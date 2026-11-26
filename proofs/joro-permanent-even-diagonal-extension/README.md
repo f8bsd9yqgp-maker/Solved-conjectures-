@@ -1,5 +1,7 @@
 # Proposed even-diagonal extension of joro's permanent-of-inverse congruences
 
+**Follow-up (26 November 2026):** Both original graph-specific conjectures were subsequently proved in [the separate complete proof](../joro-permanent-inverse-graph-congruences/README.md). Statements of unresolved status below refer to the initial extension-only investigation. The even-diagonal counterexamples remain valid.
+
 Research note, 26 November 2026. Both proposed extensions are false. The original two adjacency-matrix conjectures are NOT resolved here; do not count this note as a solution of either graph-specific conjecture.
 
 ## Source and screening
