@@ -494,3 +494,7 @@ Candidate analytical proof that every finite simple graph of minimum degree at l
 ## Pękała–Przybyło Diversified-Tolerance Majority List-Coloring (Conjectures 23 and 25)
 
 Candidate analytical proof of Conjecture 23 and its common-palette corollary Conjecture 25 using one-sided additive-two iterative rounding. Explicit sufficient minimum degree ceil(2 ell / epsilon). Qualified extensions to Conjectures 24 and 26 are discussed without claiming unconditional resolutions. [Complete proof and research audit](proofs/pekala-przybylo-diversified-majority/README.md) · [Original paper](https://doi.org/10.37236/13882). AI-assisted candidate proofs dated 27 November 2026, emailed to both original authors. Independent review and priority confirmation pending.
+
+## Pękała–Przybyło Minimum-Tolerance Majority Coloring (Conjectures 24 and 26)
+
+Candidate sharp-order threshold theorem for list and common-palette majority edge-colouring with minimum tolerance a and excess epsilon, including matching capacity obstructions and a corrected uniform parameter formulation. The conjectured small-excess upper bound follows; no claim is made about the authors' intent for unbounded excess. [Proof and audit](proofs/pekala-przybylo-minimum-tolerance/README.md) · [Original paper](https://doi.org/10.37236/13882). AI-assisted, emailed to both authors on 27 November 2026; independent review and priority pending.
