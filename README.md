@@ -490,3 +490,7 @@ Candidate full proof for every integer k ≥ 2: every finite simple graph of min
 ## Pękała–Przybyło List-Majority Edge-Coloring Conjecture (Conjecture 22)
 
 Candidate analytical proof that every finite simple graph of minimum degree at least k² admits a 1/k-majority edge-colouring from arbitrary lists of size k+1, for every integer k ≥ 2. The proof uses dense-block decomposition, auxiliary-root modulo orientations and Galvin's bipartite list-edge-colouring theorem; k=2 and the sharpness lower bound are prior work. [Complete proof and research audit](proofs/pekala-przybylo-list-majority/README.md) · [Original paper](https://doi.org/10.37236/13882). AI-assisted candidate proof dated 27 November 2026, emailed to both authors. Independent review and priority confirmation pending.
+
+## Pękała–Przybyło Diversified-Tolerance Majority List-Coloring (Conjectures 23 and 25)
+
+Candidate analytical proof of Conjecture 23 and its common-palette corollary Conjecture 25 using one-sided additive-two iterative rounding. Explicit sufficient minimum degree ceil(2 ell / epsilon). Qualified extensions to Conjectures 24 and 26 are discussed without claiming unconditional resolutions. [Complete proof and research audit](proofs/pekala-przybylo-diversified-majority/README.md) · [Original paper](https://doi.org/10.37236/13882). AI-assisted candidate proofs dated 27 November 2026, emailed to both original authors. Independent review and priority confirmation pending.
