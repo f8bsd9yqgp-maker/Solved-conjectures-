@@ -486,3 +486,7 @@ Candidate complete analytical proof that every finite simple Eulerian graph has 
 ## Pękała–Przybyło Minimum-Degree Majority Edge-Coloring Conjecture (Conjecture 11)
 
 Candidate full proof for every integer k ≥ 2: every finite simple graph of minimum degree at least k² admits a 1/k-majority edge-colouring with k+1 colours. Pendant augmentation reduces the result to the classical Hilton–de Werra equitable-colouring theorem; the original authors' lower bound establishes sharpness. [Complete proof and priority audit](proofs/pekala-przybylo-minimum-degree-majority/README.md) · [Original paper](https://doi.org/10.37236/12416). AI-assisted note, 27 November 2026; emailed to both authors. Independent review and priority pending; no formal certification claimed.
+
+## Pękała–Przybyło List-Majority Edge-Coloring Conjecture (Conjecture 22)
+
+Candidate analytical proof that every finite simple graph of minimum degree at least k² admits a 1/k-majority edge-colouring from arbitrary lists of size k+1, for every integer k ≥ 2. The proof uses dense-block decomposition, auxiliary-root modulo orientations and Galvin's bipartite list-edge-colouring theorem; k=2 and the sharpness lower bound are prior work. [Complete proof and research audit](proofs/pekala-przybylo-list-majority/README.md) · [Original paper](https://doi.org/10.37236/13882). AI-assisted candidate proof dated 27 November 2026, emailed to both authors. Independent review and priority confirmation pending.
